@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">EZeats</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textPickPicture">上傳圖片</string>
+    <string name="textName">餐點名稱</string>
+    <string name="textPrice">餐點價格</string>
+    <string name="textContent">餐點內容</string>
+    <string name="textInsert">確定新增</string>
+    <string name="textCancel">取消</string>
+    <string name="textid">Menu Id</string>
+    <string name="textMenuId">餐點編號</string>
+    <string name="textUpdate">修改</string>
+    <string name="textNoNetwork">no network connection available</string>
+    <string name="textNOMenu">no Menu</string>
+    <string name="textidIsInvalid">請輸入菜單編號</string>
+    <string name="textnameIsInvalid">請輸入菜單名稱</string>
+    <string name="textpriceIsInvalid">請輸入菜單價格</string>
+    <string name="textInsertFail">新增失敗</string>
+    <string name="textInsertSuccess">新增成功</string>
+    <string name="textTakePicture">拍照</string>
+    <string name="textNoCameraApp">no camera app found</string>
+    <string name="textNoImageCropAppFound">no image crop app found</string>
+    <string name="textUpdateFail">修改失敗</string>
+    <string name="textUpdateSuccess">修改成功</string>
+</resources>

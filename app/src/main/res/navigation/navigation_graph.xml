@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.ezeats.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_menuInsertFragment"
+            app:destination="@id/menuInsertFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_menuUpdateFragment"
+            app:destination="@id/menuUpdateFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_dateFragment"
+            app:destination="@id/dateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuInsertFragment"
+        android:name="com.example.ezeats.MenuInsertFragment"
+        android:label="fragment_menu_insert"
+        tools:layout="@layout/fragment_menu_insert" />
+    <fragment
+        android:id="@+id/menuUpdateFragment"
+        android:name="com.example.ezeats.MenuUpdateFragment"
+        android:label="fragment_menu_update"
+        tools:layout="@layout/fragment_menu_update" />
+    <fragment
+        android:id="@+id/dateFragment"
+        android:name="com.example.ezeats.DateFragment"
+        android:label="fragment_date"
+        tools:layout="@layout/fragment_date" />
+</navigation>
